@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='kps9566',
     packages=['kps9566'],
-    version='0.0.1',
+    version='0.0.2',
     description='KPS9566 codec for Python 3',
     long_description='KPS9566 encoding for Python 3',
     author='REO2248',
