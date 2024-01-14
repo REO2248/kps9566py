@@ -43,7 +43,7 @@ def kps9566_decode(input, errors='strict'):
                     elif errors == 'ignore':
                         pass
                     elif errors == 'replace':
-                        buffer.append('?')
+                        buffer.append('\uFFFD')
                     else:
                         raise UnicodeError('kps9566', input, i, i+1, 'unknown error')
                 else:
@@ -56,7 +56,7 @@ def kps9566_decode(input, errors='strict'):
                 elif errors == 'ignore':
                     pass
                 elif errors == 'replace':
-                    buffer.append('?')
+                    buffer.append('\uFFFD')
                 else:
                     raise UnicodeError('kps9566', input, i, i+1, 'unknown error')
         elif 0x00 <= it <= 0x7f:
