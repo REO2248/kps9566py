@@ -13,7 +13,7 @@ pip install kps9566
 ```python
 import kps9566
 
-text = '아름다운 우리나라'
+text = '아름다운 우리 나라'
 print(text.encode('kps9566'))
 
 data=b'\xb9\xc8\xb1\xfd\xb2\xf7 \xbc\xbf\xb0\xea'
