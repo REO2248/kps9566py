@@ -1,2 +1,2 @@
-from .kps9566codec import register
+from .kps9566 import register
 register()
